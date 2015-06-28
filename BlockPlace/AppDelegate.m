@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BlockViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    BlockViewController *viewController = [[BlockViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [[self window] setRootViewController:navController];
     return YES;
 }
 

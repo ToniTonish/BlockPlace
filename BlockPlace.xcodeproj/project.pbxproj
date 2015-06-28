@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		CD25E3C91B178E6400E02089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25E3C81B178E6400E02089 /* main.m */; };
 		CD25E3CC1B178E6400E02089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25E3CB1B178E6400E02089 /* AppDelegate.m */; };
-		CD25E3CF1B178E6400E02089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25E3CE1B178E6400E02089 /* ViewController.m */; };
 		CD25E3D21B178E6400E02089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD25E3D01B178E6400E02089 /* Main.storyboard */; };
 		CD25E3D41B178E6400E02089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25E3D31B178E6400E02089 /* Images.xcassets */; };
 		CD25E3D71B178E6400E02089 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD25E3D51B178E6400E02089 /* LaunchScreen.xib */; };
 		CD25E3E31B178E6400E02089 /* BlockPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25E3E21B178E6400E02089 /* BlockPlaceTests.m */; };
+		CD25E3EF1B178EFF00E02089 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD25E3EE1B178EFF00E02089 /* CoreLocation.framework */; };
+		CD25E3F11B178F0600E02089 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD25E3F01B178F0600E02089 /* MapKit.framework */; };
+		CD4C57A71B199E4100A36157 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C57A51B199E4100A36157 /* BlockViewController.m */; };
+		CD4C57A81B199E4100A36157 /* BlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4C57A61B199E4100A36157 /* BlockViewController.xib */; };
+		CD4C57AC1B19AD3B00A36157 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C57AA1B19AD3B00A36157 /* PinViewController.m */; };
+		CD4C57AD1B19AD3B00A36157 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4C57AB1B19AD3B00A36157 /* PinViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,20 @@
 		CD25E3C81B178E6400E02089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD25E3CA1B178E6400E02089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD25E3CB1B178E6400E02089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD25E3CD1B178E6400E02089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD25E3CE1B178E6400E02089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD25E3D11B178E6400E02089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD25E3D31B178E6400E02089 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD25E3D61B178E6400E02089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD25E3DC1B178E6400E02089 /* BlockPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockPlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25E3E11B178E6400E02089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD25E3E21B178E6400E02089 /* BlockPlaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockPlaceTests.m; sourceTree = "<group>"; };
+		CD25E3EE1B178EFF00E02089 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD25E3F01B178F0600E02089 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD4C57A41B199E4100A36157 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockViewController.h; path = ../BlockViewController.h; sourceTree = "<group>"; };
+		CD4C57A51B199E4100A36157 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlockViewController.m; path = ../BlockViewController.m; sourceTree = "<group>"; };
+		CD4C57A61B199E4100A36157 /* BlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BlockViewController.xib; path = ../BlockViewController.xib; sourceTree = "<group>"; };
+		CD4C57A91B19AD3B00A36157 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinViewController.h; path = ../PinViewController.h; sourceTree = "<group>"; };
+		CD4C57AA1B19AD3B00A36157 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinViewController.m; path = ../PinViewController.m; sourceTree = "<group>"; };
+		CD4C57AB1B19AD3B00A36157 /* PinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PinViewController.xib; path = ../PinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD25E3F11B178F0600E02089 /* MapKit.framework in Frameworks */,
+				CD25E3EF1B178EFF00E02089 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,8 @@
 		CD25E3BA1B178E6400E02089 = {
 			isa = PBXGroup;
 			children = (
+				CD25E3F01B178F0600E02089 /* MapKit.framework */,
+				CD25E3EE1B178EFF00E02089 /* CoreLocation.framework */,
 				CD25E3C51B178E6400E02089 /* BlockPlace */,
 				CD25E3DF1B178E6400E02089 /* BlockPlaceTests */,
 				CD25E3C41B178E6400E02089 /* Products */,
@@ -81,10 +96,14 @@
 		CD25E3C51B178E6400E02089 /* BlockPlace */ = {
 			isa = PBXGroup;
 			children = (
+				CD4C57A91B19AD3B00A36157 /* PinViewController.h */,
+				CD4C57AA1B19AD3B00A36157 /* PinViewController.m */,
+				CD4C57AB1B19AD3B00A36157 /* PinViewController.xib */,
+				CD4C57A41B199E4100A36157 /* BlockViewController.h */,
+				CD4C57A51B199E4100A36157 /* BlockViewController.m */,
+				CD4C57A61B199E4100A36157 /* BlockViewController.xib */,
 				CD25E3CA1B178E6400E02089 /* AppDelegate.h */,
 				CD25E3CB1B178E6400E02089 /* AppDelegate.m */,
-				CD25E3CD1B178E6400E02089 /* ViewController.h */,
-				CD25E3CE1B178E6400E02089 /* ViewController.m */,
 				CD25E3D01B178E6400E02089 /* Main.storyboard */,
 				CD25E3D31B178E6400E02089 /* Images.xcassets */,
 				CD25E3D51B178E6400E02089 /* LaunchScreen.xib */,
@@ -201,7 +220,9 @@
 			files = (
 				CD25E3D21B178E6400E02089 /* Main.storyboard in Resources */,
 				CD25E3D71B178E6400E02089 /* LaunchScreen.xib in Resources */,
+				CD4C57AD1B19AD3B00A36157 /* PinViewController.xib in Resources */,
 				CD25E3D41B178E6400E02089 /* Images.xcassets in Resources */,
+				CD4C57A81B199E4100A36157 /* BlockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25E3CF1B178E6400E02089 /* ViewController.m in Sources */,
+				CD4C57AC1B19AD3B00A36157 /* PinViewController.m in Sources */,
 				CD25E3CC1B178E6400E02089 /* AppDelegate.m in Sources */,
+				CD4C57A71B199E4100A36157 /* BlockViewController.m in Sources */,
 				CD25E3C91B178E6400E02089 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 				CD25E3E81B178E6400E02089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD25E3E91B178E6400E02089 /* Build configuration list for PBXNativeTarget "BlockPlaceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				CD25E3EB1B178E6400E02089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
